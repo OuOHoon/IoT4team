@@ -20,11 +20,9 @@ int currentMils = 0, startMils = 0;
 // WIFI 관련 변수
 int delayTime = 1000;
 AWS_IOT testButton;
-const char* ssid = (TEST == 0 ? "SO070VOIP3EF1" : "dlink-9A64");
-const char* password = (TEST == 0 ? "BEEDCB3EF0" : "rvnej29490");
 
 // AWS 관련 변수
-char* HOST_ADDRESS=(TEST == 0 ? "af5ulj9zhi6n3-ats.iot.ap-northeast-2.amazonaws.com" : "a2s92ul56cnrz8-ats.iot.ap-northeast-2.amazonaws.com");
+
 int detectCount = 0; // 1 감지 횟수
 int tempCount = 0; // n초동안 연속 감지 횟수
 
